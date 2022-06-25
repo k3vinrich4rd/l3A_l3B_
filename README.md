@@ -1,5 +1,5 @@
 # l3A_l3B_
-Resolvendo exercício utilizando estruturas de condição e repetição 
+# Resolvendo exercício utilizando estruturas de condição e repetição 
 
 L3A - Exercícios:
 LISTA DE EXERCÍCIOS 003A - Entregar

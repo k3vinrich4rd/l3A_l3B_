@@ -25,13 +25,13 @@ public class Exercicio7 {
 
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        System.out.print("Digite um numero e sÃ¡iba se Ã© um nÃºmero primo: ");
+        System.out.print("Digite um numero e sáiba se é um número primo: ");
         int numero = input.nextInt();
 
         if(primo(numero)){
-            System.out.print("O nÃºmero "+numero+" Ã© primo.");
+            System.out.print("O número "+numero+" é primo.");
         }else{
-            System.out.print("O nÃºmero " +numero+ " nÃ£o Ã© primo.");
+            System.out.print("O número " +numero+ " não é primo.");
         }
 
     }

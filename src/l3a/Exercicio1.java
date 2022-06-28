@@ -11,12 +11,15 @@ public class Exercicio1 {
         double numero2 = input.nextDouble();
         input.close();
 
-        if (numero1 > numero2){
-            System.out.println("O primeiro número digitado, é maior que o segundo número!");
-        }
-        if (numero2 > numero1){
-            System.out.println("O segundo número digitado, é maior que o primeiro número!");
+        if (numero1 > numero2) {
+            System.out.print("O primeiro número digitado que que foi o " + numero1 + " é maior que o segundo número!");
+        } else if (numero2 > numero1) {
+            System.out.print("O segundo número digitado que foi o " + numero2 + ", é maior que o primeiro número!");
+
+        } else {
+            System.out.println("Os números não podem ser iguais, digite números diferentes!");
         }
     }
 }
+
 

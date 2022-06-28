@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Exercicio4 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        System.out.println("Digite a quantidade de números que você quer efetuar a soma: ");
+        System.out.print("Digite a quantidade de números que você quer efetuar a soma: ");
 
         int numerosInteiros = input.nextInt();
         int valor = 0;

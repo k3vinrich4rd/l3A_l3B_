@@ -15,11 +15,9 @@ public class Exercicio2 {
 
         if (produto1 < produto2 && produto1 < produto3) {
             System.out.print("Você deve comprar o primeiro produto, pois ele é o produto mais barato.");
-        }
-        if (produto2 < produto1 && produto2 < produto3) {
+        } else if (produto2 < produto1 && produto2 < produto3) {
             System.out.print("Você deve comprar o segundo produto, pois ele é o produto mais barato.");
-        }
-        if (produto3 < produto1 && produto3 < produto2) {
+        } else if (produto3 < produto1 && produto3 < produto2) {
             System.out.print("Você deve comprar o terceiro produto, pois ele é o produto mais barato.");
         }
 

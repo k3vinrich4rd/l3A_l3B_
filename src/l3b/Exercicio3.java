@@ -17,12 +17,9 @@ public class Exercicio3 {
             auxiliar = limite[(int) c];
             if (menor > auxiliar) {
                 menor = limite[(int) c];
-            }
-            if (maior < auxiliar) {
+            } else if (maior < auxiliar) {
                 maior = limite[(int) c];
-
             }
-
 
         }
         System.out.println("O maior é: " + maior + "O menor é: " + menor);
@@ -30,4 +27,7 @@ public class Exercicio3 {
 
     }
 
-        }
+
+}
+
+

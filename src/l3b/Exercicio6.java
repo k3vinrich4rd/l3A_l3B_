@@ -14,7 +14,7 @@ public class Exercicio6 {
         int somaImpar = 0;
 
         if (inicial > fin) {
-            System.out.println("Intervalo de valores inv√°lido");
+            System.out.println("Intervalo de valores inv·lido");
         }
 
         for (int i1 = inicial; i1 <= fin; i1++) {
@@ -22,7 +22,7 @@ public class Exercicio6 {
                 somaImpar += i1;
             }
         }
-        System.out.println("A soma dos n√∫meros impares √©: " + somaImpar);
+        System.out.println("A soma dos n˙meros impares È: " + somaImpar);
 
     }
 }

@@ -5,24 +5,26 @@ import java.util.Scanner;
 public class Exercicio9 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        System.out.print("Digite um nÃºmero: ");
+        System.out.print("Digite um número: ");
         int numero = input.nextInt();
         input.close();
 
         int antecessor = numero;
         int resultado = antecessor;
 
-        if (numero <= 0)
-            System.out.print("NÃºmero invÃ¡lido");
+        if (numero < 0)
+            System.out.print("Número inválido");
+        else {
 
-        while (antecessor > 1) {
-            resultado = resultado * (antecessor - 1);
-            antecessor--; // atÃ© chegar no numero 1
+            while (antecessor > 1) {
+                resultado = resultado * (antecessor - 1);
+                antecessor--; // até chegar no numero 1
 
-            System.out.println(numero + " x " + antecessor + " = " + resultado);
+                System.out.println(numero + " x " + antecessor + " = " + resultado);
+
+            }
+            System.out.print("O resultado final é: " + resultado);
 
         }
-        System.out.print("O resultado final Ã©: " + resultado);
-
     }
 }

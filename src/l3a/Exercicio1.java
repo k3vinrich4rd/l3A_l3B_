@@ -5,19 +5,19 @@ import java.util.Scanner;
 public class Exercicio1 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        System.out.print("Digite o primeiro nÃºmero: ");
+        System.out.print("Digite o primeiro número: ");
         double numero1 = input.nextDouble();
-        System.out.print("Digite o segundo nÃºmero: ");
+        System.out.print("Digite o segundo número: ");
         double numero2 = input.nextDouble();
         input.close();
 
         if (numero1 > numero2) {
-            System.out.print("O primeiro nÃºmero digitado que que foi o " + numero1 + " Ã© maior que o segundo nÃºmero!");
+            System.out.print("O primeiro número digitado que foi o " + numero1 + " é maior que o segundo número!");
         } else if (numero2 > numero1) {
-            System.out.print("O segundo nÃºmero digitado que foi o " + numero2 + ", Ã© maior que o primeiro nÃºmero!");
+            System.out.print("O segundo número digitado que foi o " + numero2 + ", é maior que o primeiro número!");
 
         } else {
-            System.out.println("Os nÃºmeros nÃ£o podem ser iguais, digite nÃºmeros diferentes!");
+            System.out.println("Os números não podem ser iguais, digite números diferentes!");
         }
     }
 }

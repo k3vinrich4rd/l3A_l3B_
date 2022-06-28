@@ -13,16 +13,18 @@ public class Exercicio6 {
 
         int somaImpar = 0;
 
-        if (inicial > fin) {
+        if (inicial < 0) { // ou else if ((inicial < 0) || fin < 0)
+            System.out.println("Números inválidos, digite um número positivo para o programa funcionar!");
+        } else if (inicial > fin) {
             System.out.println("Intervalo de valores inválido");
-        }
-
-        for (int i1 = inicial; i1 <= fin; i1++) {
-            if (i1 % 2 != 0) {
-                somaImpar += i1;
+        } else {
+            for (int i1 = inicial; i1 <= fin; i1++) {
+                if (i1 % 2 != 0) {
+                    somaImpar += i1;
+                }
             }
-        }
-        System.out.println("A soma dos números impares é: " + somaImpar);
+            System.out.println("A soma dos números impares é: " + somaImpar);
 
+        }
     }
 }

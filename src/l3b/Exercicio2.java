@@ -1,5 +1,5 @@
 package l3b;
-
+// contabilizador de média
 import java.util.Scanner;
 
 public class Exercicio2 {

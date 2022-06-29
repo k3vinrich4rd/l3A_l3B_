@@ -1,5 +1,5 @@
 package l3a;
-
+// Aumento salarial
 import java.util.Scanner;
 
 public class Exercicio4 {

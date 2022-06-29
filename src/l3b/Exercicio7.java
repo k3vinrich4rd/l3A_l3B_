@@ -3,6 +3,7 @@ package l3b;
 import java.util.Scanner;
 
 public class Exercicio7 {
+    // Para saber se um número é primo ou não
     public static boolean primo(int numero) {
 
         if ((numero == 1) || (numero == 0))

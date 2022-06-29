@@ -1,5 +1,5 @@
 package l3a;
-
+// Dias da semana
 import java.util.Scanner;
 
 public class Exercicio5 {

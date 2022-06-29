@@ -3,6 +3,7 @@ package l3a;
 import java.util.Scanner;
 
 public class Exercicio1 {
+    //Comparação (Maior ou Menor)
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.print("Digite o primeiro número: ");

@@ -1,5 +1,5 @@
 package l3a;
-
+// Leitor de produtos baratos
 import java.util.Scanner;
 
 public class Exercicio2 {

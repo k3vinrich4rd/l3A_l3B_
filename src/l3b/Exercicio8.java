@@ -1,4 +1,5 @@
 package l3b;
+// Soma de números impares
 
 import java.util.Scanner;
 
@@ -13,7 +14,7 @@ public class Exercicio8 {
             }
 
         }
-        System.out.print("A soma dos 50 primeiro nÃºmeros Ã­mpares Ã©: "+somaImpar);
+        System.out.print("A soma dos 50 primeiros números ímpares é: "+somaImpar);
 
 
 

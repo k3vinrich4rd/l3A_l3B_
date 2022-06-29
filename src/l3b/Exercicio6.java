@@ -1,5 +1,5 @@
 package l3b;
-
+// Soma de números ímpares
 import java.util.Scanner;
 
 public class Exercicio6 {

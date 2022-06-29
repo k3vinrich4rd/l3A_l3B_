@@ -1,5 +1,5 @@
 package l3b;
-
+// contador numeral (de 1 a 100)
 public class Exercicio1 {
     public static void main(String[] args) {
         for (int i = 1; i <= 100 ; i++) {

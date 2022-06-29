@@ -1,5 +1,5 @@
 package l3b;
-
+// soma de números inteiro e positivos
 import java.util.Scanner;
 
 public class Exercicio4 {

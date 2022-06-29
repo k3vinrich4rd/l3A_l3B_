@@ -1,5 +1,5 @@
 package l3b;
-
+// como calcular o fatorial de um número:
 import java.util.Scanner;
 
 public class Exercicio9 {

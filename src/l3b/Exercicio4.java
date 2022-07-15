@@ -11,7 +11,7 @@ public class Exercicio4 {
         int valor = 0;
         int soma = 0;
 
-        for (int i = 0; i < numerosInteiros; i++) {
+        for (int contador = 0; contador < numerosInteiros; contador++) {
             Scanner numeros = new Scanner(System.in);
             System.out.print("Digite um número: ");
             valor = input.nextInt();

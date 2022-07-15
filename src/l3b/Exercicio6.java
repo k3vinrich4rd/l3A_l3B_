@@ -18,9 +18,9 @@ public class Exercicio6 {
         } else if (inicial > fin) {
             System.out.println("Intervalo de valores inválido");
         } else {
-            for (int i1 = inicial; i1 <= fin; i1++) {
-                if (i1 % 2 != 0) {
-                    somaImpar += i1;
+            for (int contador = inicial; contador <= fin; contador++) {
+                if (contador % 2 != 0) {
+                    somaImpar += contador;
                 }
             }
             System.out.println("A soma dos números impares é: " + somaImpar);
